@@ -8,6 +8,10 @@
 </head>
 <body>
 
+    <div class="float">
+        <img src="float.png" alt="">
+    </div>
+
     <div class="pic">
         <img src="index_1220.jpg" alt="">
     </div>
@@ -20,6 +24,20 @@
 <style>
     body{
         margin: 0;
+    }
+    .float{
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        top: unset;
+        left: unset;
+        z-index: 10000000;
+    }
+    .float img{
+        width: 100%;
+        height: auto;
     }
     .pic{
         width: 100%;
